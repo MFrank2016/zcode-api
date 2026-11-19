@@ -12,6 +12,10 @@ dist/
 /zcode-proxy-darwin-*
 .idea/
 
+# Deployment secrets & runtime state (docker compose)
+.env
+/data/
+
 # Android build artifacts
 Android-APP/app/build/
 Android-APP/.gradle/
